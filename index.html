@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Index</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/1babb89c8e.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <!-- header -->
+    <div id="header">
+        <div id="container" style="padding: 5px 10%;">
+            <nav>
+                <img src="images/logo1.png" class="logo">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fas fa-times" onclick="closemenu()"></i>
+                </ul>
+                <i class="fas fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p>Competative Codder</p>
+                <h1>Hi, I'm <span>Krupa</span> from India</h1>
+            </div>
+        </div>
+    </div>
+    <!-- About -->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/back groung img.png">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>Computer engineer to be in '25. Enthusiastic for competitive coding. <br>In top 7% at tryhackme.</p>
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>Computer languages</span><br>C, C++, JAVA, Python</li>
+                            <li><span>Decoder</span><br>for languages like C, C++, JAVA</li>
+                            <li><span>Web Development</span><br>frontend</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>In 3rd sem</span><br>Software group project</li>
+                            <li><span>2016 - 2019</span><br>Team leader of 3-5 students to help in studies</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>2022</span><br>1st year of Computer Engineering</li>
+                            <li><span>2021</span><br>12th Science (A group) with 89%</li>
+                            <li><span>2019</span><br>10th with 87%</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- services -->
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My Services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fas fa-duotone fa-code"></i>
+                    <h2>Computer languages</h2>
+                    <p>C, C++, JAVA, HTML, CSS, JavaScript etc. Capable enough to decode any of the above coded programs.</p>
+                    <a href="#">Lern more</a>
+                </div>
+                <div>
+                    <i class="fas fa-duotone fa-crop"></i>
+                    <h2>Cyber Security</h2>
+                    <p>In top 7% at tryhackme platform. Aware about the Kali linux features.</p>
+                    <a href="#">Lern more</a>
+                </div>
+                <div>
+                    <i class="fas fa-duotone fa-code"></i>
+                    <h2>Web Design</h2>
+                    <p>A good UI/UX designer.</p>
+                    <a href="#">Lern more</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- portfolio -->
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">My Work</h1>
+             <div class="work-list">
+                <div class="work">
+                    <img src="images/work-1.png">
+                    <div class="layer">
+                        <h3>One Stop Material</h3>
+                        <p>The major goal of this website is to ease the studying and searching for the students of CHARUSAT University as they would find all their information and material related to academics at one place.</p>
+                        <a href="https://github.com/Shekhat-Krupa/one-stop-material.git"><i class="fas fa-external-link-alt"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/work-2.png">
+                    <div class="layer">
+                        <h3>Portfolio</h3>
+                        <p>The major gole of this portfolio is to collect all the information about Krupa Shekhat at one place.</p>
+                        <a href="index.html "><i class="fas fa-external-link-alt"></i></a>
+                    </div>
+                </div>
+             </div>
+             <a href="#" class="btn">See More</a>
+        </div>
+    </div>
+    <!-- contact -->
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p><i class="fas fa-paper-plane"></i>shekhatkrupa1112@gmail.com</p>
+                    <p><i class="fas fa-phone-square-alt"></i>1234567890</p>
+                    <div class="social-icons">
+                        <a href="#"><i class="fab fa-facebook"></i></a>
+                        <a href="#"><i class="fab fa-twitter-square"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="https://www.linkedin.com/in/krupa-shekhat-69453b22b?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3BbQbVX2hjTumMgJqYdRSkdQ%3D%3D"><i class="fab fa-linkedin"></i></a> 
+                    </div>
+                    <a href="doc/resume.pdf" download class="btn btn2">Download Resume</a>
+                </div>
+                <div class="contact-right">
+                    <form>
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="Email" placeholder="Your Email" required>
+                        <textarea name="Massage" rows="5" placeholder="Your Massage"></textarea>
+                        <button type="submit" class="btn btn2">Send Massage</button>
+                    </form>
+                    <span id="msg"></span>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p class="copyrightt">Copyright  &copy; 2023 Krupa Shekhat</p>
+        </div>
+    </div>
+    <!-- script for navigation of services-->
+    <script>
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+        function opentab(tabname){
+            for(tablink of tablinks){
+                tablink.classList.remove("active-link");
+            }
+            for(tabcontent of tabcontents){
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+    </script>
+    <!-- script for navigation menu for phone view -->
+    <script>
+        var sidemenu = document.getElementById("sidemenu");
+        function openmenu(){
+            sidemenu.style.right="0";
+
+        }
+        function closemenu(){
+            sidemenu.style.right="-200px";
+            
+        }
+    </script>
+    <script>
+        constmsg =document.getElementById("msg")
+        const scriptURL = '<SCRIPT URL>'
+        const form = document.forms['submit-to-google-sheet']
+
+        form.addEventListener('submit', e => {e.preventDefault()
+            fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+            .then(response => {
+                msg.innerHTML="Massage sent successfully"
+                setTimeout(function(){
+                    msg.innerHTML=""
+                },5000)
+                form.reset()
+            })
+            .catch(error => console.error('Error!', error.message))
+        })
+    </script>
+</body>
+</html>
